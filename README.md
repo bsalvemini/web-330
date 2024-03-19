@@ -1,2 +1,4 @@
-# web-330
-Repository for work in WEB 330
+# WEB 330 Enterprise JavaScript II
+## Contributors
+- Richard Krasso
+- Brandon Salvemini
