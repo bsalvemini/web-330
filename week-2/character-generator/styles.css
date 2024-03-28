@@ -1,0 +1,53 @@
+/*
+  Pragmatic JavaScript
+  Chapter 1
+  Programming Assignment
+
+  Author: Brandon Salvemini
+  Date: 3/27/2024
+  Filename: styles.css
+*/
+
+/* Styles for body */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles for form and form elements */
+#characterForm {
+  margin-top: 2%;
+  padding: 2%;
+}
+
+input,
+select {
+  margin-bottom: 1%;
+}
+
+label {
+  font-size: 1.3em;
+}
+
+/* Styles for Generate Hero button */
+#characterForm #generateHero {
+  margin: 0;
+  border: 1px solid #fff;
+  display: block;
+  padding: 2%;
+  background-color: blue;
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/* Styles for character output div */
+#characterOutput {
+  font-size: 1.3em;
+  padding: 2%;
+}
