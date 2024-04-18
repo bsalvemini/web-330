@@ -1,0 +1,56 @@
+/*
+  Pragmatic JavaScript
+  Chapter 2
+  Programming Assignment
+
+  Author: Brandon Salvemini
+  Date: 4/16/2024
+  Filename: styles.css
+*/
+
+/* Styles for body */
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background-color: #add8e6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles for form and form elements */
+#reservationForm {
+  padding: 2%;
+}
+
+input {
+  margin-bottom: 3%;
+  border: 2px solid #fff;
+  border-radius: 4%;
+}
+
+label {
+  font-size: 1.3em;
+}
+
+/* Styles for Reserve button */
+#reservationForm input[type="submit"] {
+  margin: 0;
+  border: 1px solid #fff;
+  display: block;
+  padding: 1%;
+  background-color: #ade6d8;
+  color: #000;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#reservationForm input[type="submit"]:hover {
+  background-color: #62cfb4;
+}
+
+/* Styles for message p element */
+#message {
+  padding: 2%;
+  font-size: 1.3em;
+}
