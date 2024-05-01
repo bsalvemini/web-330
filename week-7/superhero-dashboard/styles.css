@@ -1,0 +1,38 @@
+/*
+  Pragmatic JavaScript
+  Chapter 3
+  Programming Assignment
+
+  Author: Brandon Salvemini
+  Date: 4/24/2024
+  Filename: styles.css
+*/
+
+/* Styles for body */
+body {
+  color: #fff;
+  background-color: #0476f2; /* https://brandpalettes.com/dc-comics-logo-colors/ */
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+/* Styles for headers */
+h2 {
+  font-family: Verdana, sans-serif;
+}
+
+#hero1 > h2 {
+  background: linear-gradient(#000, #808080);
+  display: inline-block;
+}
+
+#hero2 > h2 {
+  background: linear-gradient(#98ff98, #fff);
+  display: inline-block;
+  color: black;
+}
+
+#hero3 > h2 {
+  background: linear-gradient(#ff0000, #ffff00, #0000ff);
+  display: inline-block;
+}
