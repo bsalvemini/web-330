@@ -1,0 +1,51 @@
+/*
+  Pragmatic JavaScript
+  Chapter 4
+  Programming Assignment
+
+  Author: Brandon Salvemini
+  Date: 5/6/2024
+  Filename: styles.css
+*/
+
+/* Styles for body */
+body {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Styles for headers */
+h2 {
+  font-family: Garamond, serif;
+}
+
+/* Styles for form elements */
+
+/* Styles for Search box */
+input[type="text"] {
+  border: none;
+  border-radius: 10px;
+  padding: 1%;
+  width: 50%;
+}
+
+/* Styles for Search button */
+#movie-form button[type="submit"] {
+  margin: 0;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #04aa6d;
+  padding: 1%;
+}
+
+#movie-form button[type="submit"]:hover {
+  background-color: #06e090;
+}
+
+/* Styles for error-message element */
+#error-message {
+  color: #ff0000;
+  font-size: 1.5em;
+}
